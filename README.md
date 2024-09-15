@@ -2,7 +2,7 @@
 
 ## motivation
 
-- [geomatico/maplibre-cog-protoco](https://github.com/geomatico/maplibre-cog-protocol) is amazing work to consume COG on browser, maximize performance of geotiff.js and provides utilities to colorize raster data.
+- [geomatico/maplibre-cog-protocol](https://github.com/geomatico/maplibre-cog-protocol) is amazing work to consume COG on browser, maximize performance of geotiff.js and provides utilities to colorize raster data.
 - It is nice the process to load COG and tiling them on server in terms of utilize shared cache.
 
 ## usage
@@ -10,6 +10,13 @@
 ```sh
 npm install
 MODE=nodejs npm run dev # run server on node server
+```
+
+### AWS Lambda
+
+```sh
+npm install
+npm run deploy # needs credentials
 ```
 
 ## endpoints
