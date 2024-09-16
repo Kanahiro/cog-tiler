@@ -1,21 +1,17 @@
 {
   "name": "higuruma",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "scripts": {
-    "build": "tsx build.ts",
-    "build:types": "tsc --declaration --emitDeclarationOnly --declarationDir './dist'",
+    "build": "tsc",
+    "minify": "tsx build.ts",
     "zip": "zip -j lambda.zip dist/*",
     "update": "aws lambda update-function-code --zip-file fileb://lambda.zip --function-name lambda-cog-tiles",
-    "deploy": "run-s build zip update",
+    "deploy": "run-s minify zip update",
     "dev": "tsx --watch src/main.ts",
     "prepare": "run-s build build:types"
   },
-  "bin": {
-    "higuruma": "./dist/main.cjs"
-  },
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.esm.js",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"

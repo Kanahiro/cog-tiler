@@ -10,13 +10,6 @@
 
 ## usage
 
-### As Package
-
-```sh
-npm install -g higuruma
-higuruma # run server on nodejs, http://localhost:3000/health
-```
-
 ### As Library
 
 ```sh
