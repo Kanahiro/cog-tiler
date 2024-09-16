@@ -44,6 +44,8 @@ npm run deploy # needs credentials
 - `/tile/{z}/{x}/{y}?url=https://path/to/cog.tif`: content-type is `image/png`
 - `/values?url=https://path/to/cog.tif&lat=35.681236&lon=139.767125`: return pixel value at the given lat/lon
 
+> inspired by [developmentseed/titiler](https://github.com/developmentseed/titiler)
+
 ## acknowledgements
 
 - This codes includes many codes derived from [geomatico/maplibre-cog-protocol](https://github.com/geomatico/maplibre-cog-protocol), modified to fit on Node.js.
