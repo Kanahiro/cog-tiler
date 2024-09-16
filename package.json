@@ -1,6 +1,6 @@
 {
   "name": "higuruma",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -17,23 +17,22 @@
     "dist"
   ],
   "devDependencies": {
-    "@hono/node-server": "^1.12.2",
-    "@mapbox/sphericalmercator": "^1.2.0",
     "@types/d3-scale": "^4.0.8",
     "@types/mapbox__sphericalmercator": "^1.2.3",
     "@types/node": "^22.5.5",
     "@types/upng-js": "^2.1.5",
-    "d3-scale": "^4.0.2",
     "esbuild": "^0.21.4",
-    "geotiff": "^2.1.3",
-    "hono": "^4.6.1",
     "maplibre-gl": "^4.7.0",
     "npm-run-all2": "^6.2.0",
-    "tslib": "^2.7.0",
     "tsx": "^4.19.1",
-    "typescript": "^5.6.2",
-    "upng-js": "^2.1.0",
-    "web-worker": "^1.3.0"
+    "typescript": "^5.6.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "upng-js": "^2.1.0",
+    "geotiff": "^2.1.3",
+    "d3-scale": "^4.0.2",
+    "@hono/node-server": "^1.12.2",
+    "@mapbox/sphericalmercator": "^1.2.0",
+    "hono": "^4.6.1"
+  }
 }
