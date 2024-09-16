@@ -1,4 +1,4 @@
-import type { Location, TypedArray } from '../types';
+import type { Location, TypedArray } from '../types.js';
 import { TILE_SIZE } from '../renderTile.js';
 
 import { tilePixelFromLatLonZoom } from './math.js';

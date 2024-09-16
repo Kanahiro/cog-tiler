@@ -1,4 +1,4 @@
-import type { TypedArray } from '../types';
+import type { TypedArray } from '../types.js';
 
 export function fromWhiteIsZero(
     data: TypedArray[],

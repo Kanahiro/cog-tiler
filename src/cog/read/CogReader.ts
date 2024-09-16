@@ -8,7 +8,7 @@ import type {
     TileIndex,
     TileJSON,
     TypedArray,
-} from '../types';
+} from '../types.js';
 import {
     mercatorBboxToGeographicBbox,
     tileIndexToMercatorBbox,

@@ -1,4 +1,4 @@
-import type { CogMetadata, ImageRenderer, TypedArray } from '../types';
+import type { CogMetadata, ImageRenderer, TypedArray } from '../types.js';
 import * as rgba from './rgba.js';
 
 export enum PhotometricInterpretations {

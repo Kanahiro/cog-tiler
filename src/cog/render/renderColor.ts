@@ -1,4 +1,4 @@
-import type { CogMetadata, ImageRenderer } from '../types';
+import type { CogMetadata, ImageRenderer } from '../types.js';
 import { colorScale, ColorScaleParams } from './colorScale.js';
 
 type Options = CogMetadata & { colorScale: ColorScaleParams };

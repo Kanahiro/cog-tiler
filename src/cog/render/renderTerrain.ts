@@ -1,4 +1,4 @@
-import type { CogMetadata, ImageRenderer } from '../types';
+import type { CogMetadata, ImageRenderer } from '../types.js';
 
 type Options = CogMetadata;
 
