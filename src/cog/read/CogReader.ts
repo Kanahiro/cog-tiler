@@ -1,7 +1,7 @@
 import { fromUrl, GeoTIFF } from 'geotiff';
 import QuickLRU from 'quick-lru';
 
-import {
+import type {
     Bbox,
     CogMetadata,
     ImageMetadata,
@@ -13,7 +13,7 @@ import {
     mercatorBboxToGeographicBbox,
     tileIndexToMercatorBbox,
     zoomFromResolution,
-} from '../read/math';
+} from './math.js';
 
 const ONE_HOUR_IN_MILLISECONDS = 60 * 60 * 1000;
 

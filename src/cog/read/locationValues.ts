@@ -1,8 +1,8 @@
-import { Location, TypedArray } from '../types';
-import { TILE_SIZE } from '../renderTile';
+import type { Location, TypedArray } from '../types';
+import { TILE_SIZE } from '../renderTile.js';
 
-import { tilePixelFromLatLonZoom } from '../read/math';
-import CogReader from './CogReader';
+import { tilePixelFromLatLonZoom } from './math.js';
+import CogReader from './CogReader.js';
 
 const locationValues = async (
     url: string,

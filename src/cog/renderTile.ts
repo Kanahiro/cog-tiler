@@ -1,8 +1,8 @@
-import CogReader from './read/CogReader';
-import { HEXColor } from './render/colorScale';
-import renderColor from './render/renderColor';
-import renderPhoto from './render/renderPhoto';
-import renderTerrain from './render/renderTerrain';
+import CogReader from './read/CogReader.js';
+import { HEXColor } from './render/colorScale.js';
+import renderColor from './render/renderColor.js';
+import renderPhoto from './render/renderPhoto.js';
+import renderTerrain from './render/renderTerrain.js';
 
 import UPNG from 'upng-js';
 

@@ -1,4 +1,4 @@
-export { renderTile, locationValues } from './cog';
+export { renderTile, locationValues } from './cog/index.js';
 
 // for AWS Lambda
 import { handle } from 'hono/aws-lambda';

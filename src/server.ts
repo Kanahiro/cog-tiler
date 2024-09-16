@@ -1,6 +1,6 @@
 import { Hono } from 'hono';
 import { handle } from 'hono/aws-lambda';
-import { renderTile, locationValues } from './cog';
+import { renderTile, locationValues } from './cog/index.js';
 
 export const app = new Hono();
 

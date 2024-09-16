@@ -23,6 +23,6 @@
   SOFTWARE.
 */
 
-export { renderTile } from './renderTile';
-export { colorScale, colorSchemeNames } from './render/colorScale';
-export { default as locationValues } from './read/locationValues';
+export { renderTile } from './renderTile.js';
+export { colorScale, colorSchemeNames } from './render/colorScale.js';
+export { default as locationValues } from './read/locationValues.js';
