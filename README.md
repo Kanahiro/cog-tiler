@@ -10,18 +10,11 @@
 
 ## usage
 
-### Node.js
+### As Package
 
 ```sh
-npm install
-MODE=nodejs npm run dev # run server on node server
-```
-
-### AWS Lambda
-
-```sh
-npm install
-npm run deploy # needs credentials
+npm install -g higuruma
+higuruma # run server on nodejs, http://localhost:3000/health
 ```
 
 ### As Library
@@ -37,6 +30,13 @@ import { renderTile, locationValues } from 'higuruma/dist/index.esm.js'; // ES M
 const tile = await renderTile('https://path/to/cog.tif', z, x, y); // ArrayBuffer of PNG
 const values = await locationValues('https://path/to/cog.tif', {latitude, longitude}); // pixel values
 
+```
+
+### AWS Lambda
+
+```sh
+npm install
+npm run deploy # needs credentials
 ```
 
 ## endpoints
