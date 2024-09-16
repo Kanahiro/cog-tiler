@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import { Hono } from 'hono';
 import { handle } from 'hono/aws-lambda';
 import { renderTile, locationValues } from './cog';
@@ -49,6 +51,4 @@ app.get('/tiles/:z/:x/:y', async (c) => {
 
 export const handler = handle(app);
 
-if (process.env.MODE === 'nodejs') {
-    serve(app);
-}
+serve(app);
