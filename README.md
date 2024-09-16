@@ -1,7 +1,7 @@
 # Higuruma - COG Tiler on Hono
 
 - Hono -> Hi(火🔥)
-- COG -> gear -> Haguruma(歯車⚙️)
+- Cloud Optimized GeoTIFF(COG) -> gear -> Haguruma(歯車⚙️)
 
 ## motivation
 
