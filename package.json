@@ -8,7 +8,7 @@
     "zip": "zip -j lambda.zip dist/*",
     "update": "aws lambda update-function-code --zip-file fileb://lambda.zip --function-name lambda-cog-tiles",
     "deploy": "run-s build zip update",
-    "dev": "MODE=nodejs tsx --watch src/index.ts",
+    "dev": "MODE=nodejs tsx --watch src/main.ts",
     "prepare": "run-s build build:types"
   },
   "main": "./dist/index.cjs.js",
