@@ -1,4 +1,4 @@
-# COG Tiler on Hono
+# Higuruma - COG Tiler on Hono
 
 ## motivation
 
