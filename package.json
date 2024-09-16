@@ -9,7 +9,7 @@
     "update": "aws lambda update-function-code --zip-file fileb://lambda.zip --function-name lambda-cog-tiles",
     "deploy": "run-s minify zip update",
     "dev": "tsx --watch src/main.ts",
-    "prepare": "run-s build build:types"
+    "prepare": "npm run build"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
